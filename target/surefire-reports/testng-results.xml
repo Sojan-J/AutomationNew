@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="14" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-13T17:00:16Z" name="Surefire suite" finished-at="2023-07-13T17:02:03Z" duration-ms="107077">
+    <groups>
+    </groups>
+    <test started-at="2023-07-13T17:00:16Z" name="Surefire test" finished-at="2023-07-13T17:02:03Z" duration-ms="107077">
+      <class name="com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.MyWishListTest">
+        <test-method is-config="true" signature="setupLogger()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.MyWishListTest@55b699ef]" started-at="2023-07-13T17:01:17Z" name="setupLogger" finished-at="2023-07-13T17:01:17Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogger -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.MyWishListTest@55b699ef]" started-at="2023-07-13T17:01:17Z" name="setUp" finished-at="2023-07-13T17:01:22Z" duration-ms="4395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWishListTable()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.MyWishListTest@55b699ef]" started-at="2023-07-13T17:01:22Z" name="validateWishListTable" finished-at="2023-07-13T17:01:36Z" duration-ms="14197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWishListTable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.MyWishListTest@55b699ef]" started-at="2023-07-13T17:01:36Z" name="tearDown" finished-at="2023-07-13T17:01:36Z" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.MyWishListTest -->
+      <class name="com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest">
+        <test-method is-config="true" signature="setupLogger()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:16Z" name="setupLogger" finished-at="2023-07-13T17:00:16Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogger -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:16Z" name="setup" finished-at="2023-07-13T17:00:22Z" duration-ms="5749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateIfCustomerIsAbleToLoginWithValidCredentilas(java.lang.String, java.lang.String)[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:22Z" name="validateIfCustomerIsAbleToLoginWithValidCredentilas" data-provider="validLoginCredentials" finished-at="2023-07-13T17:00:30Z" duration-ms="7944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[davis@william.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[davis]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfCustomerIsAbleToLoginWithValidCredentilas -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:30Z" name="tearDown" finished-at="2023-07-13T17:00:30Z" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:30Z" name="setup" finished-at="2023-07-13T17:00:35Z" duration-ms="4886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateIfCustomerIsAbleToLoginWithValidCredentilas(java.lang.String, java.lang.String)[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:35Z" name="validateIfCustomerIsAbleToLoginWithValidCredentilas" data-provider="validLoginCredentials" finished-at="2023-07-13T17:00:42Z" duration-ms="6757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ryan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChangePass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfCustomerIsAbleToLoginWithValidCredentilas -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:42Z" name="tearDown" finished-at="2023-07-13T17:00:42Z" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:42Z" name="setup" finished-at="2023-07-13T17:00:47Z" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateIfCustomerIsAbleToLoginWithValidCredentilas(java.lang.String, java.lang.String)[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:47Z" name="validateIfCustomerIsAbleToLoginWithValidCredentilas" data-provider="validLoginCredentials" finished-at="2023-07-13T17:00:54Z" duration-ms="6581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[judith@van.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[judith123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfCustomerIsAbleToLoginWithValidCredentilas -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:54Z" name="tearDown" finished-at="2023-07-13T17:00:54Z" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:54Z" name="setup" finished-at="2023-07-13T17:00:59Z" duration-ms="4659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateIfCustomerIsAbleToLoginWithValidCredentilas(java.lang.String, java.lang.String)[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:00:59Z" name="validateIfCustomerIsAbleToLoginWithValidCredentilas" data-provider="validLoginCredentials" finished-at="2023-07-13T17:01:05Z" duration-ms="6745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jainrajat1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RAJATjain]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfCustomerIsAbleToLoginWithValidCredentilas -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:01:05Z" name="tearDown" finished-at="2023-07-13T17:01:06Z" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:01:06Z" name="setup" finished-at="2023-07-13T17:01:10Z" duration-ms="4799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateIfCustomerIsAbleToLoginWithValidCredentilas(java.lang.String, java.lang.String)[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:01:10Z" name="validateIfCustomerIsAbleToLoginWithValidCredentilas" data-provider="validLoginCredentials" finished-at="2023-07-13T17:01:17Z" duration-ms="6599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[joseph@van.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[joseph123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfCustomerIsAbleToLoginWithValidCredentilas -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest@2a3b5b47]" started-at="2023-07-13T17:01:17Z" name="tearDown" finished-at="2023-07-13T17:01:17Z" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.LoginPageTest -->
+      <class name="com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest">
+        <test-method is-config="true" signature="setupLogger()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest@689604d9]" started-at="2023-07-13T17:01:43Z" name="setupLogger" finished-at="2023-07-13T17:01:43Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogger -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest@689604d9]" started-at="2023-07-13T17:01:43Z" name="setup" finished-at="2023-07-13T17:01:47Z" duration-ms="4306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCartIsUpdatedWhenNewItemAdded()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest@689604d9]" started-at="2023-07-13T17:01:47Z" name="validateCartIsUpdatedWhenNewItemAdded" finished-at="2023-07-13T17:01:50Z" duration-ms="3053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartIsUpdatedWhenNewItemAdded -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest@689604d9]" started-at="2023-07-13T17:01:50Z" name="tearDown" finished-at="2023-07-13T17:01:50Z" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest@689604d9]" started-at="2023-07-13T17:01:50Z" name="setup" finished-at="2023-07-13T17:01:54Z" duration-ms="4363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCorrespondingSearchItemIsDisplayed()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest@689604d9]" started-at="2023-07-13T17:01:54Z" name="validateCorrespondingSearchItemIsDisplayed" finished-at="2023-07-13T17:01:55Z" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCorrespondingSearchItemIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest@689604d9]" started-at="2023-07-13T17:01:55Z" name="tearDown" finished-at="2023-07-13T17:01:56Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest@689604d9]" started-at="2023-07-13T17:01:56Z" name="setup" finished-at="2023-07-13T17:02:00Z" duration-ms="4107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateIfWishListUpdatedWhenItemAdded()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest@689604d9]" started-at="2023-07-13T17:02:00Z" name="validateIfWishListUpdatedWhenItemAdded" finished-at="2023-07-13T17:02:03Z" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfWishListUpdatedWhenItemAdded -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest@689604d9]" started-at="2023-07-13T17:02:03Z" name="tearDown" finished-at="2023-07-13T17:02:03Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourStoreTest -->
+      <class name="com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourOrderHasBeenPlacedTest">
+        <test-method is-config="true" signature="setupLogger()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourOrderHasBeenPlacedTest@35d019a3]" started-at="2023-07-13T17:01:36Z" name="setupLogger" finished-at="2023-07-13T17:01:36Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogger -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourOrderHasBeenPlacedTest@35d019a3]" started-at="2023-07-13T17:01:36Z" name="setUp" finished-at="2023-07-13T17:01:41Z" duration-ms="4555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCustomerCanSelectItemAndAddToCart()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourOrderHasBeenPlacedTest@35d019a3]" started-at="2023-07-13T17:01:41Z" name="verifyCustomerCanSelectItemAndAddToCart" finished-at="2023-07-13T17:01:42Z" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerCanSelectItemAndAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourOrderHasBeenPlacedTest@35d019a3]" started-at="2023-07-13T17:01:42Z" name="tearDown" finished-at="2023-07-13T17:01:43Z" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naveenAutomationLab.naveenAutomationLabFrameWork.Test.YourOrderHasBeenPlacedTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
