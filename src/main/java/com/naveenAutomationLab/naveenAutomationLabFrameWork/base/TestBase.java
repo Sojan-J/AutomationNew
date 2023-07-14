@@ -54,7 +54,7 @@ public class TestBase {
 	}
 
 	public void intialisation() {
-		String browserName1=System.getProperty("Browsers");
+		String browserName1=System.getProperty("BrowserName");
 		switch (browserName1) {
 		case "Chrome":
 			wd = WebDriverManager.chromedriver().create();
