@@ -33,7 +33,7 @@ public class TestBase {
 	public static Logger logger;
 	private WebDriverEvents events;
 	private EventFiringWebDriver eDriver;
-	private String browserName = Browsers.CHROME.getNameOfBrowser();//use enum class to get the browse rname
+	//private String browserName = Browsers.CHROME.getNameOfBrowser();//use enum class to get the browse rname
 
 	public TestBase() {
 		TestDataProp = new Properties();
@@ -54,7 +54,8 @@ public class TestBase {
 	}
 
 	public void intialisation() {
-		String browserName1=System.getProperty("BrowserName")!=null? System.getProperty("BrowserName"):browserName;
+		String browserName1 = System.getProperty("BrowserName") != null ? System.getProperty("BrowserName")
+				: Browsers.CHROME.getNameOfBrowser();
 		switch (browserName1) {
 		case "Chrome":
 			wd = WebDriverManager.chromedriver().create();
